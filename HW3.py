@@ -1,7 +1,7 @@
 #name Ethan Wright
 #Class 5 hour
 #assigments HW3
-
+#e
 #print hello world!
 
 list = ["Ethan Wright","Tye short","Jake pool","king james","logan paul"]
