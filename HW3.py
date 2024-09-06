@@ -8,7 +8,7 @@ list = ["Ethan Wright","Tye short","Jake pool","king james","logan paul"]
 list.append("john batman")
 print(list[4])
 
-nums = [4, 8, 3, 2]
+nums = [3, 9, 6, 7]
 nums.insert(2,6)
 nums.sort()
 print(nums)
