@@ -18,3 +18,9 @@ print(dic[4])
 dic.update({"updated key" "updated value"})
 #print the entire dictionary
 print("dic")
+#Clear all of the data inside of the dictionary and print it
+
+#make a nested dictionary with three entries containing the name
+#of another classmate and two other pieces of information within each entry
+
+#print the names of all three classmates on the same line
