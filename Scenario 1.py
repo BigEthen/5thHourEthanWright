@@ -13,35 +13,41 @@ enemy = {
 "enemy1": {
     "name":  "batman",
     "size":  "Big",
-    "dmg":  "92",
-    "Hp":    "100",
+    "dmg":  92,
+    "Hp":    100,
 },
 "enemy2": {
     "name": "Joker",
     "size": "small",
-    "dmg":  "43",
-    "Hp":   "65",
+    "dmg":  43,
+    "Hp":   65,
 },
     "enemy3": {
         "name": "catwoman",
         "size": "small",
-        "dmg":  "34",
-        "Hp":   "54",
+        "dmg":  34,
+        "Hp":   54,
     },
 "enemy4": {
     "name": "bane",
     "size": "very big",
-    "dmg":   "85",
-    "HP":    "77",
+    "dmg":   85,
+    "HP":    77,
 },
     "enemy5": {
         "name": "Harley Quinn",
         "size": "small",
-        "dmg":  "34",
-        "hp":   "65",
+        "dmg":  34,
+        "hp":   65,
     }
 }
+enemy["enemy1"]["dmg"]=int(input("Enter number here: "))
+enemy["enemy2"]["dmg"]=int(input("Enter number here: "))
+enemy["enemy3"]["dmg"]=int(input("Enter number here: "))
+enemy["enemy4"]["dmg"]=int(input("Enter number here: "))
+enemy["enemy5"]["dmg"]=int(input("Enter number here: "))
 
 print(enemy)
 enemynumb = 0
+
 
