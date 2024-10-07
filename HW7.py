@@ -6,7 +6,7 @@
 print("hello word!")
 #2. Create three different boolean variables named wifi, login, and admin.
 wifi = True
-login = True
+login = False
 admin = True
 #3. Create a separate integer variable that denotes the number of times
 #someone with admin credentials has logged in.
@@ -22,4 +22,14 @@ if wifi:
         if admin:
             print("welcome")
             amen += 1
+        else:
+            print("error no admin")
+    else:
+        print("error no login")
+
+else:
+     print("error no wifi")
+
+
+
 
