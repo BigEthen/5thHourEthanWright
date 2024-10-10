@@ -36,14 +36,12 @@
 # - Astarion uses a shortbow: 1d6 + 4
 
 
-
-
 #Party Dictionary Goes = {
 goodpeople = {
     "batman": {
-        "health": 25 ,
-        "attack": 7 ,
-        "armor": 17 ,
+        "health": 25,
+        "attack": 7,
+        "armor": 17,
     },
     "robin": {
         "health": 16,
@@ -51,15 +49,30 @@ goodpeople = {
         "armor": 14
 
     },
-
-
-
-
-
-
+    "batwoman": {
+        "health": 15,
+        "attack": 5,
+        "armor": 13,
+    }}
 
 #Enemy Dictionary Goes Here
 
+emeny = {
+    "joker": {
+        "health": 20,
+        "attack": 6,
+        "armor": 15,
+    },
+    "Harley Quinn": {
+        "health": 15,
+        "attack": 1,
+        "armor": 5,
+    },
+    "bane": {
+        "health": 15,
+        "attack": 1,
+        "armor": 5,
+    }
+}
 
-
-#Combat Code Goes Here
+#Combat Code Goe here
