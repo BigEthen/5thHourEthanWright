@@ -1,6 +1,7 @@
 #Name:Ethan Wright
 #Class: 5th Hour
 #Assignment: Scenario 3
+from random import random, randint
 
 #Scenario 3:
 #Now that the game development team has a dictionary for enemies
@@ -35,6 +36,7 @@
 # - Gale uses the firebolt spell: 1d10
 # - Astarion uses a shortbow: 1d6 + 4
 
+from random import randint
 
 #Party Dictionary Goes = {
 goodpeople = {
@@ -57,7 +59,7 @@ goodpeople = {
 
 #Enemy Dictionary Goes Here
 
-emeny = {
+enemy = {
     "joker": {
         "health": 20,
         "attack": 6,
@@ -75,4 +77,36 @@ emeny = {
     }
 }
 
+
+
 #Combat Code Goe here
+print('batman vs joker')
+roll = randint(1,20) + goodpeople["batman"]["attack"]
+if roll >= enemy["joker"]["armor"]:
+    print("hit")
+    damage = randint(1,6) + randint(1,6) + goodpeople["batman"]["attack"]
+    print("batman did" ,damage, "to joker")
+else:
+    print("batman missed")
+
+
+if enemy["joker"]["health"] <= 0:
+    print("joker is died")
+
+if enemy["joker"]["health"] > 0:
+
+    enemy_roll = randint(1,20)  + enemy["joker"]["attack"]
+    print("joker is attack back")
+
+if enemy_roll >=  goodpeople["batman"]["armor"]:
+
+    enemy_damage = randint(1,6) + randint(1,6) + enemy["joker"]["attack"]
+    print("joker does this")
+else:
+    print("joker missed")
+
+
+
+
+
+
