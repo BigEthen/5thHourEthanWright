@@ -12,9 +12,14 @@ print("Hello World!")
 
 #2. Create a while loop that prints only even numbers
 #between 1 and 30.
+
 for i in range(31):
     if i % 2 == False:
         print(i)
+I = 1
+while i < 30:
+    print(I)
+
 
 
 #3. Create a while loop that repeats until the user
@@ -22,6 +27,10 @@ for i in range(31):
 while True:
     for i in range(10):
         print("Whoops")
-    ask = input("say 0 if you want to quit")
-    if ask == "0":
+
+    else:
+        print("say 0 if you want it to stop")
+        input("")
         break
+
+

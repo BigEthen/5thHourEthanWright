@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76a02373-f7a1-4017-9468-209615bd4f24" name="Changes" comment="added HW9">
-      <change afterPath="$PROJECT_DIR$/HW10.py" afterDir="false" />
+    <list default="true" id="76a02373-f7a1-4017-9468-209615bd4f24" name="Changes" comment="added HW10">
+      <change afterPath="$PROJECT_DIR$/HW11.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW10.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW10.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,31 +53,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.HW1.executor": "Run",
-    "Python.HW10.executor": "Run",
-    "Python.HW2.executor": "Run",
-    "Python.HW3.executor": "Run",
-    "Python.HW5.executor": "Run",
-    "Python.HW6.executor": "Run",
-    "Python.HW7.executor": "Run",
-    "Python.HW8.executor": "Run",
-    "Python.HW9.executor": "Run",
-    "Python.Scenario 1.executor": "Run",
-    "Python.Scenario 2.executor": "Run",
-    "Python.Scenario 3.executor": "Run",
-    "Python.playground.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/5th Hour/PycharmProjects/5thHourEthanWright"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.HW1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Scenario 1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Scenario 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Scenario 3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.playground.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/5th Hour/PycharmProjects/5thHourEthanWright&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "GitIgnore"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;GitIgnore&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\5th Hour\PycharmProjects\5thHourEthanWright" />
@@ -303,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729793265765</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="added HW10">
+      <option name="closed" value="true" />
+      <created>1730225397790</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1730225397790</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -332,6 +341,7 @@
     <MESSAGE value="added Scenario 3" />
     <MESSAGE value="added HW8" />
     <MESSAGE value="added HW9" />
-    <option name="LAST_COMMIT_MESSAGE" value="added HW9" />
+    <MESSAGE value="added HW10" />
+    <option name="LAST_COMMIT_MESSAGE" value="added HW10" />
   </component>
 </project>
