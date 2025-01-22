@@ -40,11 +40,12 @@ def rge_game():
         print("you get a tie ")
     if playerchoice == 3 and oppenemtchoice == 3:
         print("you get a tie ")
-def rge_game():
+    rpe_game()
+def rpe_game():
     replayerchoice = input("do you want to play againt? y/n!")
     if replayerchoice == "y" or replayerchoice :
         rge_game()
-
+rge_game()
 
 
 
