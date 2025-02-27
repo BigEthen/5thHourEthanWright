@@ -1,22 +1,18 @@
 #name Ethan Wright
 #Class 5 hour
 #playground
+class Test:
+    use =input('are you ready for the test')
+    print("ok")
+    for i in range(10):
+        print('bob')
+    user = input('how many bob?')
 
-user =  input('are you ready for the test')
-print("ok")
-for i in range(10):
-    print('bob')
-user = input('how many bob?')
+    print("yes", 10)
 
-print("yes" , 10)
-print("give me a number")
-x= input (" ")
-print("give me another number")
-y= input("")
-sum = int(x) * int(y)
-print(sum)
 
-print('tic tac toe pick a person to play with')
+    print("play tic tac toe to pass your test")
+
 
 class Board:
     def __init__(self):
